@@ -72,7 +72,7 @@ const Login = () => {
                     />
                     {errors.password && <span className="error">{errors.password}</span>}
                 </div>
-                <button className='primary-button' id='login-btn' type="submit">Login</button>
+                <button className='login-cta' id='login-btn' type="submit">Login</button>
                 </form>
             </div>
             </div>

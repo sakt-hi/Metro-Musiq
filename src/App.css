@@ -23,6 +23,20 @@
   }
 }
 
+.login-cta{
+  background-color: #d32b75;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  &:hover{
+    background-color: hsl(334,66%,47%);
+  }
+}
+
 .login-wrap{
   min-height: 100vh;
   text-align: center;
@@ -85,6 +99,7 @@
   }
   #login-btn{
     margin: 1rem;
+    justify-content: center;
   }
 }
 
